@@ -8,10 +8,10 @@
     <relativePath />
   </parent>
   <groupId>oracle.paas.accs</groupId>
-  <artifactId>timesource</artifactId>
+  <artifactId>time-source</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>timesource</name>
-  <description>Stream app to push timestamp as messae on kafka</description>
+  <name>time-source</name>
+  <description>Stream app to push timestamp as message on kafka</description>
   <properties>
     <skipTests>true</skipTests>
     <java.version>1.7</java.version>
