@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Import;
 
 
 @SpringBootApplication
-@Import(org.springframework.cloud.stream.app.time.source.TimeSourceConfiguration.class)
+@Import(org.springframework.cloud.stream.app.time.source.kafka.TimeSourceConfiguration.class)
 public class TimeSourceKafkaApplication {
 
 	public static void main(String[] args) {
